@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 
+/* isto é a section, o pai da parada toda */
 .criar_conta {
     display: flex;
     align-items: center;
@@ -16,21 +17,25 @@
     margin: 50px;
 }
 
+/* div dos textos */
 .textos p {
     margin: 5px 0;
     font-size: 48px;
     font-family: "Poppins", sans-serif;
 }
 
+
 #textos {
     flex-grow: 0.2;
 }
 
+/* coloquei a palavra talento separada dos outros textos */
 .talento {
     color: #007BE5;
     font-family: "Poppins", sans-serif;
 }
 
+/* tag <button> */
 .botao_criar_conta {
     color: #04A777;
     background-color: transparent;
