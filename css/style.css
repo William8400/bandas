@@ -10,6 +10,7 @@
 .criar_conta {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 20px;
     font-family: "Poppins", sans-serif;
     margin: 50px;
@@ -19,6 +20,10 @@
     margin: 5px 0;
     font-size: 48px;
     font-family: "Poppins", sans-serif;
+}
+
+#textos {
+    flex-grow: 0.2;
 }
 
 .talento {
