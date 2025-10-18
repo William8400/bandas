@@ -47,3 +47,17 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+@media (max-width: 768px){
+    .criar_conta {
+        flex-direction: column;
+    }
+
+    .textos p{
+        font-size: 16px;
+    }
+
+    .botao_criar_conta {
+        font-size: 16px;
+    }
+}
